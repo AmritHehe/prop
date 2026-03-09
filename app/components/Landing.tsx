@@ -22,7 +22,7 @@ export default function Landing(){
                 </div>
             </div>
             <div className="absolute inset-0 -z-20">
-                <Image src={Data.backgroundImage} className="overflow-auto  object-cover opacity-45"   alt="GeetaImage" fill  />
+                <Image src={Data.backgroundImage} className="overflow-auto  object-cover opacity-45"   alt="BackgroundImage" fill  />
 
             </div>
         </div>
