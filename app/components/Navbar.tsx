@@ -29,9 +29,9 @@ export default function Navbar(){
     return (
         <div className="w-screen h-25 bg-neutral-400 flex items-center justify-center">
             <div className="flex items-center justify-between w-7xl">
-                <div className="bg-white font-sans flex italic gap-2 text-black p-2">
+                <div className="bg-white font-sans flex italic gap-2 overflow-hidden text-black p-2">
                 <Image src={Data.topLeftLogo1} height={40} width={100} alt="GeetaImage" />
-                <Image src={Data.topLeftLogo2} height={100} width={100} alt="GeetaImage" />
+                <Image src={Data.topLeftLogo2} height={50} width={100} alt="GeetaImage" />
             </div>
             <div className="mr-28">
                 {Links.map((x , i ) => (
